@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% cover;
+    color: aliceblue;
+}
+
+.contaienr {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.input input {
+    margin: 5px;
+    padding: 8px 10px 5px 8px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#butt {
+    grid-column: 4/1;
+    width: 80%;
+    margin: auto;
+}
+
+#equation-type {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: yellow;
+}
